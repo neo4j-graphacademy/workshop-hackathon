@@ -3,7 +3,7 @@
   "image": "mcr.microsoft.com/devcontainers/python:3.13",
   "postCreateCommand": "bash .devcontainer/post_create.sh",
   "remoteEnv": {
-    "PATH": "${containerEnv:PATH}:/workspaces/genai-mcp-neo4j-tools/neo4j-mcp"
+    "PATH": "${containerEnv:PATH}:/workspaces/workshop-hackathon/neo4j-mcp"
   },
   "customizations": {
     "codespaces": {
