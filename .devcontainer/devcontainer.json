@@ -8,7 +8,7 @@
   "customizations": {
     "codespaces": {
       "openFiles": [
-        "README.adoc",
+        "README.md",
         ".env",
         ".vscode/mcp.json"
       ]
