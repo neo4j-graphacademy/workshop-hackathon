@@ -11,3 +11,6 @@ export NVM_DIR="/usr/local/share/nvm"
 nvm install --lts
 
 npm_config_yes=true npx skills add --all https://github.com/neo4j-contrib/neo4j-skills
+
+# neo4j cli
+curl -sSfL https://neo4j.sh/install.sh | NEO4J_CLI_AUTO_INSTALL_SKILL=0 bash
