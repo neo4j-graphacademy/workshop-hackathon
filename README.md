@@ -58,17 +58,29 @@ The resulting server URL uses this format:
 https://<instance-id>.mcp-instances.neo4j.io
 ```
 
+### Neo4j GraphAcademy MCP
+
+The GraphAcademy MCP server gives you access to Neo4j learning content.
+
+1. Start the `neo4j-graphacademy` server from your editor's MCP server controls.
+2. Authorize access when prompted.
+
+
 ### VS Code MCP Configuration
 
 ```json
 {
-  "servers": {
-    "neo4j-mcp": {
-      "type": "http",
-      "url": "https://<instance-id>.mcp-instances.neo4j.io"
-    }
-  },
-  "inputs": []
+	"servers": {
+		"neo4j-mcp": {
+			"type": "http",
+			"url": "https://<instance-id>.mcp-instances.neo4j.io"
+		},
+		"neo4j-graphacademy": {
+			"type": "http",
+			"url": "https://mcp.dev.graphacademy.neo4j.com/mcp"
+		}
+	},
+	"inputs": []
 }
 ```
 
