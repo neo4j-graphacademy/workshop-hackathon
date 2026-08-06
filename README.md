@@ -1,8 +1,12 @@
 # Neo4j Mini Agentic Hack
 
-## Presentation Deck
+## Presentation Content
+
+[View the presentation content](https://docs.google.com/presentation/d/1A7O_-EDGA567VVYQxoOAjAb9f1POSjRKQBAaYGjgtPY/edit?usp=sharing).
 
 ## Workshop Content
+
+[Complete the workshop to receive a Neo4j Certificate of Completion](https://github.com/neo4j-graphacademy/workshop-hackathon).
 
 ### Goal
 
@@ -10,10 +14,10 @@ Build and experiment.
 
 Create a small AI application using Neo4j and try one or both of these products:
 
-- [Neo4j Aura Free](https://neo4j.com/product/auradb/)
-- Neo4j Document Intelligence
-- Aura MCP
-- Neo4j Agent Memory Service
+- [Neo4j Aura Free](https://neo4j.com/product/auradb/) — start building with a free managed Neo4j database
+- [Neo4j Document Intelligence](https://neo4j.com/blog/graph-database/introducing-document-intelligence-from-documents-to-a-knowledge-graph-right-inside-aura/) — turn documents into a knowledge graph
+- [Neo4j Aura MCP](https://neo4j.com/docs/mcp/current/mcp-for-aura/) — connect AI agents with graph data
+- [Neo4j Agent Memory Service](https://memory.neo4jlabs.com/) — give your agents persistent memory
 
 You are free to choose your own idea, documents, stack, and approach.
 
