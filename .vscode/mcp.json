@@ -1,14 +1,9 @@
 {
 	"servers": {
-		"neo4j-graphacademy": {
+		"neo4j-mcp": {
 			"type": "http",
-			"url": "https://mcp.dev.graphacademy.neo4j.com/mcp"
-		},
-		"neo4j": {
-            "type": "stdio",
-            "command": "neo4j-mcp",
-            "envFile": "${workspaceFolder}/.env"
-        }
+			"url": "https://<instance-id>.mcp-instances.neo4j.io"
+		}
 	},
 	"inputs": []
 }

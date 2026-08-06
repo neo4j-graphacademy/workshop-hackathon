@@ -1,8 +1,7 @@
 {
   "mcpServers": {
-    "neo4j-graphacademy": {
-      "type": "node",
-      "url": "https://mcp.dev.graphacademy.neo4j.com/mcp"
+    "neo4j-mcp": {
+      "url": "https://<instance-id>.mcp-instances.neo4j.io"
     }
   }
 }
