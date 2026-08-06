@@ -43,12 +43,19 @@ _Add your feedback here._
 
 [Open the hackathon repository in a GitHub Codespace](https://codespaces.new/neo4j-graphacademy/workshop-hackathon).
 
-### GraphAcademy MCP Server
+### Neo4j Aura MCP
 
-The GraphAcademy MCP server is available at:
+[Neo4j Aura MCP](https://neo4j.com/docs/mcp/current/mcp-for-aura/) is a hosted MCP server for your Aura instance.
+
+1. In the [Aura console](https://console.neo4j.io/), find your instance ID under **Instances**, or select **...** > **Inspect** and copy its MCP server URL.
+2. Replace `<instance-id>` in `.vscode/mcp.json` with your Aura instance ID.
+3. Start the `neo4j-mcp` server from your editor's MCP server controls.
+4. Authorize access when prompted, then open a new coding-agent chat so the tools are detected.
+
+The resulting server URL uses this format:
 
 ```text
-https://mcp.dev.graphacademy.neo4j.com/mcp
+https://<instance-id>.mcp-instances.neo4j.io
 ```
 
 ### VS Code MCP Configuration
@@ -56,21 +63,14 @@ https://mcp.dev.graphacademy.neo4j.com/mcp
 ```json
 {
   "servers": {
-    "neo4j-graphacademy": {
+    "neo4j-mcp": {
       "type": "http",
-      "url": "https://mcp.dev.graphacademy.neo4j.com/mcp"
-    },
-    "neo4j": {
-      "type": "stdio",
-      "command": "neo4j-mcp",
-      "envFile": "${workspaceFolder}/.env"
+      "url": "https://<instance-id>.mcp-instances.neo4j.io"
     }
   },
   "inputs": []
 }
 ```
-
-Start or authorize the MCP servers before beginning a new coding-agent chat. When a server is added after the chat has started, open a new chat session so the tools are detected.
 
 ### Neo4j Skills
 
@@ -80,9 +80,9 @@ Install [Neo4j Skills](https://github.com/neo4j-contrib/neo4j-skills):
 npx skills add https://github.com/neo4j-contrib/neo4j-skills
 ```
 
-### GraphAcademy Course Prompt
+### Neo4j Aura MCP Starter Prompt
 
-> Use the GraphAcademy MCP server to get the next lesson from `workshop-hackathon`.
+> Use Neo4j Aura MCP to inspect my database schema and suggest three connected questions I can explore.
 
 ### Reset the Graph Model
 
