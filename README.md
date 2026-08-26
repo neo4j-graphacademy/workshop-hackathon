@@ -77,7 +77,7 @@ The GraphAcademy MCP server gives you access to Neo4j learning content.
 		},
 		"neo4j-graphacademy": {
 			"type": "http",
-			"url": "https://mcp.dev.graphacademy.neo4j.com/mcp"
+			"url": "https://mcp.graphacademy.neo4j.com/mcp"
 		}
 	},
 	"inputs": []
