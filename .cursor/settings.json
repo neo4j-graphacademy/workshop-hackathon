@@ -5,7 +5,7 @@
     },
     "neo4j-graphacademy": {
       "type": "node",
-      "url": "https://mcp.dev.graphacademy.neo4j.com/mcp"
+      "url": "https://mcp.graphacademy.neo4j.com/mcp"
     }
   }
 }
